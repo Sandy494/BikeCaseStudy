@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Bike case study : This project is about identifying the impact of multiple independent variable over the revenue generation for a bike company.
 
 
 ## Table of Contents
@@ -12,25 +12,29 @@
 
 ## General Information
 - Provide general information about your project here.
+  This is a project about identifying the factor affecting the Bike company sales/revenue.
 - What is the background of your project?
+  A linear regression model was implemented on the data to identify the facotrs impacting the bike company sales for the year 2018 & 2019. The company wanted to have a strategy built
+  to improve its sales by understanding the various parameters and fine tune its strategy around the same
 - What is the business probem that your project is trying to solve?
+  Idnetifying imported factore contributing to the sales of the rental bike company by using Linear Regression method.
 - What is the dataset that is being used?
+  The data around the sales for the year 2018 and 2019 was used which has multiple parameters like temp, humidity. season, weather, weedday, holiday etc.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Based on the final model, the top 3 features contributing towards explaining the demand of the shared bikes are temp(0.4680), Light Snow ( -0.2536) and wind speed (-0.1898). The data from 2019 also had a coefficient of (0.2314) but that is a historic dataset.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- library - pandas
+- library - matplotlib
+- library - seaborn
+- library - sklearn
+- library - statsmodels
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +46,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Sandy494 ] feel free to contact me!
 
 
 <!-- Optional -->
